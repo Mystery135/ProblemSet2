@@ -1,6 +1,6 @@
 package Q6;
 public class RoulettePocket{
-    private String pocketColor;
+    private final String pocketColor;
     public RoulettePocket(int pocketNum){
 
 
