@@ -6,7 +6,7 @@ public class RouletteClient {
     public static void main(String[] args) {
         boolean inputReceived = false;
         Scanner scanner = new Scanner(System.in);
-        do {
+        do {//Keeps prompting user until they give a valid response
             System.out.print("Enter a pocket number: ");
             if (scanner.hasNextInt()){
                 int input = scanner.nextInt();
